@@ -1,0 +1,67 @@
+@font-face {
+    src: url('') format('truetype');
+    font-family: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.board {
+    margin: 64px auto;
+    width: 416px;
+    padding: 8px;
+    border: 1px solid #000;
+    background: #aa5500
+}
+
+.cells {
+    font-size: 0;
+    width: 400px;
+    height: 400px;
+}
+
+.cell  {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+}
+
+.white-cell {
+    background: #fecd72;
+}
+
+.black-cell {
+    position: relative;
+    background: #825100;
+}
+
+.checker-black {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 44px;
+    height: 44px;
+    background: url(../images/checker1.png);
+}
+
+.checker-white {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 44px;
+    height: 44px;
+    background: url(../images/checker2.png);
+}
+
+
+
+
